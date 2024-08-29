@@ -1,8 +1,13 @@
 import React from 'react'
-
+import { BrowserRouter as Router , Routes , Route  } from 'react-router-dom'
+import Map from "./components/Map"
 const App = () => {
   return (
-    <div className='text-xl'>App</div>
+    <Router>
+      <Routes>
+        <Route  path="/" element={<Map/>}></Route>
+      </Routes>
+    </Router>
   )
 }
 

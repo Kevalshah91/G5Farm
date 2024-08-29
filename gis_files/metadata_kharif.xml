@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata tile="TCHP">
+<Abstract xml:space="preserve">The annual cropland products were the integrated outcome of the Land use land cover (LULC) output generated at 56m resolution under National Level LULC mapping on 1: 2,50,000 scale using multi-temporal AWiFS project. The study involved use of multi temporal AWiFS data covering Kharif (Aug –Nov), Rabi (Jan- Mar), Zaid (April- May) seasons to address spatial and temporal variability in cropping pattern and other land cover classes. Supplementing cloud and quality affected AWiFS datasets with WiFS/RiSAT derived crop pixels. Pixel / Rule based image Classification techniques were adopted to generated spatial information about Kharif, Rabi, double/triple cropped areas, Fallow areas besides other land cover classes.  These LULC data sets were further decomposed to kharif, rabi, fallow and net sown areas through rule based selection at native 56m resolution. The fraction area of each class grid wise is generated at 5 km X 5 km grid cell for 10 cycles using GIS analysis tools. The total data set consists of fraction of Net sown, Kharif, Rabi, Fallow area for 10 continuous years from 2005-6 to 2014-15 (40 products). The data is provided as long integer format. To convert the data to fraction area of grid cell, the number has to be divided with 10000.
+</Abstract>
+<MD_Keywords xml:space="preserve">AWiFS, Land use land cover, Net sown, Kharif, Rabi, Fallow</MD_Keywords>
+<language>English</language>
+<StartDate xml:space="preserve">01-04-2004</StartDate>
+<StopDate xml:space="preserve">Ongoing </StopDate>
+<Geographic_Box xml:space="preserve">10°N - 45.5° N; 44.5° E - 105.5° E</Geographic_Box>
+<MD_Units xml:space="preserve">meter^2/meter^2</MD_Category>
+<MD_Category xml:space="preserve">Indian landmass</MD_Category>
+<Spatial_Resolution>5km x 5km</Spatial_Resolution>
+<File_Format_Image>jpg</File_Format_Image>
+<File_Format_Data>ASCII</File_Format_Data>
+<Theme>Terrestrial, Land cover, Annual cropland</Theme>
+<Contact_Information>
+<Contact_Person xml:space="preserve"> Soil & Land Resources Assessment division,LRUMG, RSAA. </Contact_Person>
+<Organisation xml:space="preserve"> National Remote Sensing Centre, ISRO</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+</Contact_Information>
+</metadata>

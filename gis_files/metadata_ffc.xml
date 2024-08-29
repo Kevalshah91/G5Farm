@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata tile="TCHP">
+<Abstract xml:space="preserve">The status of global forest cover has large uncertainty for several continents on earth owing to the paucity of comprehensive studies related to long term forest cover change. The aim of the present work is to prepare a nation-wide multi-date forest cover database which describes and quantifies historical changes in forests of India. This present analysis facilitated the determination of the status of Indian forest cover changes over last eight decades. The results indicated that forests covered an area of 869,012 km2 in 1930 which decreased to 625,565 km2 in 2013, a net loss of 243,447 km2 (28%) in eight decades. Reddy, C.S., Jha, C.S., Dadhwal, V.K., Harikrishna, P., Pasha, S.V., Satish, K.V., Dutta, K., Saranya, K.R.L., Rakesh, F., Rajashekar, G. & Diwakar, P.G. 2016. Quantification and monitoring of deforestation in India over eight decades (1930-2013). Biodiversity and Conservation 25: 93–116; DOI: 10.1007/s10531-015-1033-2.
+</Abstract>
+<MD_Keywords xml:space="preserve">Forest change, deforestation, remote sensing, spatial analysis</MD_Keywords>
+<language>English</language>
+<StartDate xml:space="preserve">01-01-2011</StartDate>
+<StopDate xml:space="preserve">30-11-2015</StopDate>
+<Geographic_Box xml:space="preserve">05°N -40°N; 50°E-110°E</Geographic_Box>
+<MD_Category xml:space="preserve">Indian landmass</MD_Category>
+<Spatial_Resolution>5km x 5km</Spatial_Resolution>
+<File_Format_Image>TIFF</File_Format_Image>
+<File_Format_Data>ASCII</File_Format_Data>
+<Theme>Forest</Theme>
+<Contact_Information>
+<Contact_Person xml:space="preserve"> Forestry and Ecology Group </Contact_Person>
+<Organisation xml:space="preserve"> National Remote Sensing Centre, ISRO</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+</Contact_Information>
+</metadata>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata tile="TCHP">
+<Abstract xml:space="preserve">This data set consists of fraction of water erosion, wind erosion, water logged area, salt affected soils  within a grid cell of 5km x 5km . The product was derived from Land degradation map on 1:50,000 scale generated using multi-temporal LISS III data aboard Resourcesat-1 / 2 of 2005-6 through visual interpretation. The vector data has been rasterized to 50m spatial resolution and fractional area has been computed at 5km x 5km grid cell through arithmetic computation.  The data is provided as long integer format. To convert the data to fraction area of grid cell, the number has to be divided with 10000.
+</Abstract>
+<MD_Keywords xml:space="preserve">AWiFS, Land use land cover, Net sown, Kharif, Rabi, Fallow </MD_Keywords>
+<language>English</language>
+<StartDate xml:space="preserve">01-04-2004</StartDate>
+<StopDate xml:space="preserve">Ongoing</StopDate>
+<Geographic_Box xml:space="preserve">-10°E - 45.5°N;44.5°E - 105.5° E</Geographic_Box>
+<MD_Units xml:space="preserve">meter^2/meter^2</MD_Category>
+<MD_Category xml:space="preserve">Indian landmass</MD_Category>
+<Spatial_Resolution>5km x 5km</Spatial_Resolution>
+<File_Format_Image>jpg</File_Format_Image>
+<File_Format_Data>ASCII</File_Format_Data>
+<Theme>Terrestrial, Land cover, Annual cropland</Theme>
+<Contact_Information>
+<Contact_Person xml:space="preserve"> Soil & Land Resources Assessment division,
+LRUMG, RSAA.</Contact_Person>
+<Organisation xml:space="preserve"> National Remote Sensing Centre, ISRO</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+</Contact_Information>
+</metadata>

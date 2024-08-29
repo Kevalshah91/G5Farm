@@ -1,0 +1,14 @@
+Projection    ALBERS
+Datum         WGS84
+Spheroid      WGS84
+Units         METERS
+Zunits        NO
+Xshift        0.0
+Yshift        0.0
+Parameters    
+  28  0  0.0 /* 1st standard parallel
+  12  0  0.0 /* 2nd standard parallel
+  78  0  0.0 /* central meridian
+  20  0  0.0 /* latitude of projection's origin
+2000000.0 /* false easting (meters)
+2000000.0 /* false northing (meters)

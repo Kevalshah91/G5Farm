@@ -9,6 +9,7 @@ const Map = () => {
   const [position, setPosition] = useState(null);
   const [selectedPoints, setSelectedPoints] = useState([]);
   const [hoveredCoords, setHoveredCoords] = useState(null);
+  const [rasterValues, setRasterValues] = useState(null);
 
   const MapEvents = () => {
     const map = useMapEvents({
@@ -21,7 +22,7 @@ const Map = () => {
               latlng: e.latlng,
               name: cityName
             };
-            setSelectedPoints([...selectedPoints, newPoint]);
+            setSelectedPoints(prevPoints => [...prevPoints, newPoint]);
           })
           .catch(error => {
             console.error('Error fetching city name:', error);
@@ -66,13 +67,25 @@ const Map = () => {
     });
   };
 
-  const handleSendCoordinates = () => {
+  const handleSendCoordinates = async () => {
     console.log('Selected points:', selectedPoints);
-    alert('Coordinates sent! Check the console for details.');
+    
+    try {
+      const responses = await Promise.all(selectedPoints.map(point => 
+        fetch(`http://localhost:1000/get_raster_values?lat=${point.latlng.lat}&lon=${point.latlng.lng}`)
+          .then(response => response.json())
+      ));
+      
+      setRasterValues(responses);
+      console.log('Raster values:', responses);
+    } catch (error) {
+      console.error('Error fetching raster values:', error);
+    }
   };
 
   const handleEnd = () => {
     setSelectedPoints([]);
+    setRasterValues(null);
     alert('Selection ended. All points have been cleared.');
   };
 
@@ -135,6 +148,13 @@ const Map = () => {
       {hoveredCoords && (
         <div className="absolute bottom-4 left-4 bg-white p-2 rounded shadow-lg z-[1000]">
           Hovered: {hoveredCoords.lat.toFixed(6)}, {hoveredCoords.lng.toFixed(6)}
+        </div>
+      )}
+
+      {rasterValues && (
+        <div className="absolute bottom-4 right-4 bg-white p-2 rounded shadow-lg z-[1000] max-h-60 overflow-auto">
+          <h3 className="font-bold">Raster Values:</h3>
+          <pre>{JSON.stringify(rasterValues, null, 2)}</pre>
         </div>
       )}
     </div>

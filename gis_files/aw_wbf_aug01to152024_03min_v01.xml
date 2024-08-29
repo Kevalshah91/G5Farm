@@ -1,0 +1,58 @@
+<metadata tileno="aw_wbf_aug01to152024_03min_v01">
+<author>National Remote Sensing Centre,ISRO</author>
+<author_URL>https://bhuvan-app3.nrsc.gov.in/data/download/index.php</author_URL>
+<Data_Identification_Information>
+<Name_of_the_Dataset>aw_wbf_aug01to152024_03min_v01, Water Bodies fraction (3' x 3' grid interval) </Name_of_the_Dataset>
+<Theme xml:space="preserve">Water Bodies Fraction</Theme>
+<Keywords xml:space="preserve">Water Bodies Images, Water Bodies fraction, Surface Water spread dynamics,  Hydrological modeling, NRSC, ISRO, Thematic Services, Bhuvan</Keywords>
+<Access_Constraints xml:space="preserve"> Registered Users </Access_Constraints>
+<Use_Constraints xml:space="preserve"> As per NRSC Data Dissemination Policy</Use_Constraints>
+<Purpose_of_creating_data xml:space="preserve">Facilitating studies on Surface water Bodies</Purpose_of_creating_data>
+<Data_Type>Raster</Data_Type>
+<Edition>First</Edition>
+<Status>Completed</Status>
+</Data_Identification_Information>
+<Contact_Information>
+<Contact_Person xml:space="preserve"> DD (RSAA) </Contact_Person>
+<Organisation xml:space="preserve"> National Remote Sensing Centre</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+<Contact_Telephone>040-23884101</Contact_Telephone>
+<Contact_Fax>040-23879583</Contact_Fax>
+<Contact_Email>ddrsa@nrsc.gov.in</Contact_Email>
+</Contact_Information>
+<Geographic_Location>
+<Spheroid_Datum> GCS, WGS-1984</Spheroid_Datum>
+</Geographic_Location>
+<Coverage>
+<Upper_left>X = 68E, Y = 38N </Upper_left>
+<Upper_right>X = 98E, Y = 38N </Upper_right>
+<Lower_right>X = 98E, Y = 6N </Lower_right>
+<Lower_left>X = 68E, Y = 6N </Lower_left>
+</Coverage>
+<Citation>
+<Data_Prepared_by xml:space="preserve">Water Resources Group, RSAA, National Remote Sensing Centre, Hyderabad.</Data_Prepared_by>
+<Original_Source xml:space="preserve">Satellite data: Resourcesat-1/ Resourcesat-2 AWiFS Sensor</Original_Source>
+<Source_Date>aug01to15,2024</Source_Date>
+<Lineage>
+<File_Name>aw_wbf_aug01to152024_03min_v01</File_Name>
+<File_Format xml:space="preserve">rst(Idrisi raster format)</File_Format>
+</Lineage>
+</Citation>
+<Metadata_Stamp>
+<Metadata_Date_Stamp>2024-08-29</Metadata_Date_Stamp>
+</Metadata_Stamp>
+<Dataset_Topic_Category>
+<Data_Identification_topic_category xml:space="preserve">Geophysical product</Data_Identification_topic_category>
+</Dataset_Topic_Category>
+<Language>
+<language>English</language>
+</Language>
+<Abstract_describing_the_data>
+<Data_Identification_Abstract xml:space="preserve"> Fortnight time composite layers derieved from Resourcesat-2 AWiFS were for generation of water layer.</Data_Identification_Abstract>
+</Abstract_describing_the_data>
+<Data_quality>
+<Accuracy xml:space="preserve">Overall accuracy is 93.5% with Kappa coefficient 0.821.</Accuracy>
+</Data_quality>
+</metadata>

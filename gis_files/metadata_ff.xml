@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata tile="TCHP">
+<Abstract xml:space="preserve">Fire regime over India was analysed using the MODIS fire record from 2003 to 2016.
+The analysis used AQUA MODIS daytime fires for the 2003 – 2016 time period. Only detections with a detection confidence of over 10% and flagged as forest by using the NRSC forest fraction layer were used in the analysis.
+Fire occurrence over India was spatially analyzed using 5 km grid to compute the average fire density, seasonality and inter-annual variability, following by Chuveico et al (2008) . 
+The Average fire density (AFD) is the density of detected fires over all years and months and its standard deviation (SDAFD) and is measure by counts km-2 month-1 for each grid cell. The length of fire period (LFP) is a measure of the number of months with significant fire activity, calculated as number of months with greater than 10% of the annual fire density.
+Chuvieco, E., Giglio, L. & Justice, C. (2008). Global characterization of fire activity: toward defining fire regimes from Earth observation data. Global Change Biology, 14(7), 1488–1502.
+</Abstract>
+<MD_Keywords xml:space="preserve">Fire Regime, Active forest fire, Aqua MODIS</MD_Keywords>
+<language>English</language>
+<StartDate xml:space="preserve">01-01-2003</StartDate>
+<StopDate xml:space="preserve">31-09-2016</StopDate>
+<Geographic_Box xml:space="preserve">05°N -40°N; 50°E-110°E</Geographic_Box>
+<MD_Category xml:space="preserve">Indian landmass</MD_Category>
+<Spatial_Resolution>5km x 5km</Spatial_Resolution>
+<File_Format_Image>TIFF</File_Format_Image>
+<File_Format_Data>ASCII</File_Format_Data>
+<Theme>Fire</Theme>
+<Contact_Information>
+<Contact_Person xml:space="preserve"> Forestry and Ecology Group </Contact_Person>
+<Organisation xml:space="preserve"> National Remote Sensing Centre, ISRO</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+</Contact_Information>
+</metadata>

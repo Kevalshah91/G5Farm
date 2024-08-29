@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata tile="TCHP">
+<Abstract xml:space="preserve">The soil carbon density product consists of mean soil organic and inorganic carbon densities generated at 5000m spatial resolution.  This will finally help in estimating soil organic carbon and inorganic carbon stocks of the country. To generate maps of soil carbon densities  across India,  Sampling points were identified based on land use, soil, physiography and Agro-ecological Sub regions. Soil samples were collected and analysed for organic Carbon, inorganic Carbon, Total Carbon using  TOC and CN analyzer from these soil sampling points. Soil organic and inorganic Carbon densities were computed through arithmetic computation and were spatially mapped through Random Forests based digital soil mapping approach.  The mean soil organic carbon and soil inorganic carbon densities (kg/m^2) were arithmetically aggregated as mean density at 5km equal area grid cell. </Abstract>
+<MD_Keywords xml:space="preserve">Soil carbon, organic carbon, inorganic carbon</MD_Keywords>
+<language>English</language>
+<StartDate xml:space="preserve">01-09-2008</StartDate>
+<StopDate xml:space="preserve">31-05-2012</StopDate>
+<Geographic_Box xml:space="preserve">10°N - 45.5° N; 44.5° E - 105.5° E</Geographic_Box>
+<MD_Units xml:space="preserve">meter^2/meter^2</MD_Category>
+<MD_Category xml:space="preserve">Indian landmass</MD_Category>
+<Spatial_Resolution>5km x 5km</Spatial_Resolution>
+<File_Format_Image>jpg</File_Format_Image>
+<File_Format_Data>ASCII</File_Format_Data>
+<Theme>Terrestrial, Soil</Theme>
+<Contact_Information>
+<Contact_Person xml:space="preserve"> Soil & Land Resources Assessment division,LRUMG, RSAA. </Contact_Person>
+<Organisation xml:space="preserve"> National Remote Sensing Centre, ISRO</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+</Contact_Information>
+</metadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata tile="TCHP">
+<Abstract xml:space="preserve">Soil depth is defined as the depth (in cm) to a lithic or paralithic contact (USDA Soil Survey Manual). The soil depth and texture class data available at different scales and various sources  of 1: 250,000 and 1:50,000 scales were rasterised with a cell size of  5km x 5km. The datasets were integrated using GIS analysis tools like Union  and decision rules were applied to generate different soil  depth classes viz. Very shallow (< 25 cm), Shallow(25-50 cm), Moderately shallow (50-75 cm), moderately deep (75-100 cm), Deep (100-150 cm), Very deep (> 150 cm). Similarly, the soil texture fraction product consists of soil  texture classes viz. Sandy (contains 85% or more sand , percentage of silt and 1.5 times percentage of clay shall not exceed 15), Loamy (contains 7-27% clay, 28-50 % silt and less than 52 percent sand), clayey(contains 35% or more clay, less than 45% sand and less than 40 % silt) and clayey skeletal (clayey and have 35 percent by volume fragments coarser than 2 mm, with enough fine earth to fill interstices larger than 1 mm).    The soil depth and soil texture pixels which were falling under built-up and water body classes (as generated under Land use / land cover AWiFS project)  were  erased  for generating final soil depth layer. The grid wise fraction area of each soil depth and soil texture class was generated for 5 km X 5 km grid for the entire country. The data is provided as long integer format. To convert the data to fraction area of grid cell, the number has to be divided with 10000.</Abstract>
+<MD_Keywords xml:space="preserve">Soil depth, soil texture</MD_Keywords>
+<language>English</language>
+<StartDate xml:space="preserve">01-09-2014</StartDate>
+<StopDate xml:space="preserve">31-05-2015</StopDate>
+<Geographic_Box xml:space="preserve">10°N - 45.5° N; 44.5° E - 105.5° E</Geographic_Box>
+<MD_Units xml:space="preserve">meter^2/meter^2</MD_Category>
+<MD_Category xml:space="preserve">Indian landmass</MD_Category>
+<Spatial_Resolution>5km x 5km</Spatial_Resolution>
+<File_Format_Image>jpg</File_Format_Image>
+<File_Format_Data>ASCII</File_Format_Data>
+<Theme>Terrestrial, Soil</Theme>
+<Contact_Information>
+<Contact_Person xml:space="preserve"> Soil & Land Resources Assessment division,LRUMG, RSAA. </Contact_Person>
+<Organisation xml:space="preserve"> National Remote Sensing Centre, ISRO</Organisation>
+<Mailing_Address>Balanagar</Mailing_Address>
+<City>Hyderabad</City>
+<Country>India</Country>
+</Contact_Information>
+</metadata>

@@ -1,6 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const admin = require('firebase-admin');
+const multer = require('multer');
+const bodyParser = require('body-parser');
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 app.use(cors());
@@ -30,3 +34,25 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+// server.js
+
+
+
+
+const upload = multer({ dest: 'uploads/' });
+
+app.post('/api/upload-snipped-image', upload.single('image'), (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ error: 'No file uploaded' });
+  }
+
+  // Optionally, process the file or store additional data here
+
+  // Respond with the image URL or path
+  res.status(200).json({
+    message: 'File uploaded successfully',
+    imageUrl: `/uploads/${req.file.filename}`
+  });
+});
+
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));

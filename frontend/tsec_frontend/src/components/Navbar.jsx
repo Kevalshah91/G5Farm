@@ -54,7 +54,7 @@ const Navbar = () => {
               </motion.button>
             </>
           )}
-        </div>
+        </div>  
       </div>
     </motion.nav>
   );

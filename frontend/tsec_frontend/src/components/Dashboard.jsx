@@ -165,6 +165,17 @@ const CropDashboard = () => {
             Upload Image
           </motion.button>
         </Card>
+        <Card className="mb-8" theme={themeColors}>
+          <h2 className={`text-xl font-semibold mb-4 text-${themeColors.primary}-800`}>Soil Type Classification</h2>
+          <p className="text-gray-700 mb-4">Upload an image</p>
+          <motion.button 
+            className={`bg-${themeColors.primary}-500 hover:bg-${themeColors.primary}-400 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105`}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Upload Image
+          </motion.button>
+        </Card>
       </div>
       <button 
         className={`fixed bottom-8 right-8 w-16 h-16 rounded-full bg-${themeColors.primary}-600 flex items-center justify-center shadow-lg text-white transition-transform transform hover:scale-105`} 

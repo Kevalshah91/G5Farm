@@ -24,20 +24,28 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-emerald-700 text-white shadow-lg"
+      className="bg-gradient-to-r from-green-700 via-green-500 to-green-300 text-white shadow-lg"
     >
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <motion.div
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="text-2xl font-bold cursor-pointer"
+          className="text-2xl font-bold cursor-pointer flex items-center space-x-2"
           onClick={() => navigate('/dashboard')}
         >
-          G5Farm
+          <img 
+            src="https://via.placeholder.com/40" 
+            alt="Logo" 
+            className="w-10 h-10 rounded-full"
+          />
+          <span>KisanMitra</span>
         </motion.div>
         <div className="flex items-center space-x-4">
           {user && (
             <>
+              <div className="text-lg">
+                Namaste, {user.displayName || 'User'}!
+              </div>
               <motion.img
                 whileHover={{ scale: 1.1 }}
                 src={user.photoURL || 'https://via.placeholder.com/40'}

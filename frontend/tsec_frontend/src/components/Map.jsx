@@ -10,6 +10,7 @@ const Map = () => {
   const [selectedPoints, setSelectedPoints] = useState([]);
   const [hoveredCoords, setHoveredCoords] = useState(null);
   const [rasterValues, setRasterValues] = useState(null);
+  const [error, setError] = useState(null);
 
   const MapEvents = () => {
     const map = useMapEvents({
@@ -26,6 +27,7 @@ const Map = () => {
           })
           .catch(error => {
             console.error('Error fetching city name:', error);
+            setError('Error fetching city name. Please try again.');
           });
       },
       mousemove(e) {
@@ -69,23 +71,36 @@ const Map = () => {
 
   const handleSendCoordinates = async () => {
     console.log('Selected points:', selectedPoints);
+    setError(null);
+    setRasterValues(null);
     
     try {
-      const responses = await Promise.all(selectedPoints.map(point => 
-        fetch(`http://localhost:1000/get_raster_values?lat=${point.latlng.lat}&lon=${point.latlng.lng}`)
-          .then(response => response.json())
-      ));
+      const responses = await Promise.all(selectedPoints.map(async point => {
+        const response = await fetch(`http://localhost:1000/get_raster_values?lat=${point.latlng.lat}&lon=${point.latlng.lng}`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const text = await response.text();
+        try {
+          return JSON.parse(text);
+        } catch (e) {
+          console.error('Invalid JSON:', text);
+          throw new Error(`Invalid JSON response for point ${point.latlng.lat}, ${point.latlng.lng}`);
+        }
+      }));
       
       setRasterValues(responses);
       console.log('Raster values:', responses);
     } catch (error) {
       console.error('Error fetching raster values:', error);
+      setError(error.message);
     }
   };
 
   const handleEnd = () => {
     setSelectedPoints([]);
     setRasterValues(null);
+    setError(null);
     alert('Selection ended. All points have been cleared.');
   };
 
@@ -148,6 +163,13 @@ const Map = () => {
       {hoveredCoords && (
         <div className="absolute bottom-4 left-4 bg-white p-2 rounded shadow-lg z-[1000]">
           Hovered: {hoveredCoords.lat.toFixed(6)}, {hoveredCoords.lng.toFixed(6)}
+        </div>
+      )}
+
+      {error && (
+        <div className="absolute bottom-4 right-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded z-[1000]">
+          <strong className="font-bold">Error:</strong>
+          <span className="block sm:inline"> {error}</span>
         </div>
       )}
 

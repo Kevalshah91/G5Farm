@@ -1,7 +1,7 @@
 
 ---
 
-# 🌾 KisanMitra
+# 🌾 G5Farm
 
 Demo Video Link:
 https://www.youtube.com/watch?v=aqaDQTVpozY&ab_channel=KevalShah
@@ -23,7 +23,7 @@ This project allows users to manage and analyze agricultural data from their far
   ![1fe6bb36-0150-4cfc-a63b-375e36d915e9](https://github.com/user-attachments/assets/7b031788-977c-4c4f-bb19-e15fcd9e6312)
 
   
-### 📊 Dashboard Overview
+### 📊 Dashboard Overview (KisanMitra)
 Each farmland dashboard presents key GIS data, including:
 - **Organic Carbon**: Enhances soil structure and fertility.
 - **Inorganic Carbon**: Affects soil pH and indicates degradation.

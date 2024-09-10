@@ -40,7 +40,8 @@ const Chatbot = ({ isOpen, onClose, theme, userAvatar }) => {
   const t = languages[language] || languages.en;
 
   useEffect(() => {
-    const genAI = new GoogleGenerativeAI("AIzaSyDunfDQjPX1kXB9Swdrt9jPcDEkm-6haKc");
+    const api_key;
+    const genAI = new GoogleGenerativeAI(api_key);
     setGenerativeAI(genAI);
     setMessages([{ role: 'assistant', content: t.welcomeMessage }]);
   }, [t.welcomeMessage]);

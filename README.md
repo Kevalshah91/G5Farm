@@ -8,11 +8,17 @@ https://www.youtube.com/watch?v=aqaDQTVpozY&ab_channel=KevalShah
 
 This project allows users to manage and analyze agricultural data from their farmland using GIS technology. It provides detailed insights on soil health, land characteristics, crop recommendations, weather forecasts, and AI-based analysis for optimal farming decisions.
 
+## Flowchart
+
+  ![PHOTO-2024-08-30-08-45-06](https://github.com/user-attachments/assets/f3652c4a-2dbb-4972-a13f-99a36197d014)
+
 ## 🚀 Features
 
 ### 🌍 Farmland Management
 - **Multiple Farmlands**: Users can add multiple farmlands to their dashboard.
 - **Location Integration**: Add farmlands by searching, using the current device location, or pinpointing on the map.
+  
+  ![PHOTO-2024-08-30-10-32-21](https://github.com/user-attachments/assets/c481ce38-b321-4d8f-8d86-d09d7c28ef21)
 
   ![1fe6bb36-0150-4cfc-a63b-375e36d915e9](https://github.com/user-attachments/assets/7b031788-977c-4c4f-bb19-e15fcd9e6312)
 
@@ -67,28 +73,19 @@ A chatbot is implemented to assist with:
 
   ![d5c5e34a-cd75-4ec0-895a-d1103d079bc9](https://github.com/user-attachments/assets/4234f769-798e-4e5a-bec8-1d0b048ac9a6)
 
-## 🛠 Tech Stack
-- **Backend**: Flask API
-- **GIS Data Processing**: QGIS, GeoPandas
-- **Machine Learning**: TensorFlow, OpenCV (for image processing)
-- **Frontend**: React, Mapbox for map integration
-- **Database**: PostgreSQL, PostGIS
-
 ## 🔍 Key Insights Provided
 - Soil fertility, water erosion, crop health, and fire risk assessments.
 - Crop management recommendations based on land characteristics.
 - Soil moisture levels, evapotranspiration, and weather conditions forecasted for irrigation and water conservation strategies.
 
-## 🎯 How to Use
-1. Sign up and log in to the platform.
-2. Add farmland using GPS, search, or map.
-3. Access the farmland dashboard to view detailed soil and land health insights.
-4. Ask the chatbot for specific queries about your farmland or crop management.
-5. Upload images to diagnose crop diseases or predict soil types.
-
 ## 🔮 Future Enhancements
 - **Satellite Integration**: Adding live satellite data for real-time land monitoring.
 - **Machine Learning Enhancements**: Improving crop disease detection and soil prediction models.
-- **Mobile App Version**: A mobile version for users on the go.
+- **Mobile App Version**: A mobile version for users on the go to enhance accessibility.
+- **Water Use Efficiency (WUE) Irrigation**: Implementing irrigation strategies to optimize water usage based on soil moisture and evapotranspiration data.
+- **PEST / Disease Surveillance**: Integrating real-time monitoring for pests and disease outbreaks, enabling early detection and mitigation.
+- **Plantation Analysis**: Adding tools for plantation performance analysis, focusing on growth patterns and yield.
+- **Wasteland / Pollution Analysis**: Monitoring and analyzing wasteland areas and pollution levels, aiming at land rehabilitation and conservation strategies.
+- **Yield & Profit Estimation**: Enhancing crop yield predictions and profitability analysis using improved AI and machine learning models.
 
----
+--- 

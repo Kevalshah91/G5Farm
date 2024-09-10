@@ -50,7 +50,7 @@ const CropDashboard = () => {
   }, []);
 
   const fetchWeatherData = async (latLong) => {
-    const API_KEY = 'ea389e6d737ab70398a017cc417967d1';
+    const API_KEY = '';
     const [lat, lon] = latLong.split(',').map(coord => parseFloat(coord));
     const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
 

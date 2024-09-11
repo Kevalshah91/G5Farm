@@ -6,6 +6,9 @@
 Demo Video Link:
 https://www.youtube.com/watch?v=aqaDQTVpozY&ab_channel=KevalShah
 
+PPT Link: 
+https://docs.google.com/presentation/d/10w9WvMxy-umdECVieUUV8rtMBz2WM6mG4D96qS_AteY/edit?usp=sharing
+
 This project allows users to manage and analyze agricultural data from their farmland using GIS technology. It provides detailed insights on soil health, land characteristics, crop recommendations, weather forecasts, and AI-based analysis for optimal farming decisions.
 
 ## Flowchart
